@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Full &amp; Final Statement</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!--
+    Notes for iText7 pdfHTML:
+    - Use simple tables for layout.
+    - Avoid flex/grid and complex CSS.
+    - Prefer inline styles or basic <style> with CSS2.1 properties.
+  -->
+  <style>
+    body { font-family: Arial, Helvetica, sans-serif; font-size: 12pt; color: #000; margin: 24px; }
+    .doc-header { width: 100%; border-collapse: collapse; margin-bottom: 12px; }
+    .doc-header td { vertical-align: top; padding: 4px 0; }
+    .right { text-align: right; }
+    .section-title { font-weight: bold; font-size: 13pt; margin: 18px 0 8px; }
+    .kv { width: 100%; border-collapse: collapse; }
+    .kv td { padding: 6px; border: 1px solid #000; }
+    .kv .label { width: 35%; font-weight: bold; background: #f2f2f2; }
+    .hr { height: 1px; background: #000; border: 0; margin: 12px 0; }
+    .grid { width: 100%; border-collapse: collapse; }
+    .grid th, .grid td { border: 1px solid #000; padding: 6px; }
+    .grid th { background: #f2f2f2; text-align: left; }
+    .two-col { width: 100%; border-collapse: collapse; }
+    .two-col td { vertical-align: top; width: 50%; }
+    .mb8 { margin-bottom: 8px; }
+    .mb16 { margin-bottom: 16px; }
+    .bold { font-weight: bold; }
+    .sign-row { width: 100%; border-collapse: collapse; margin-top: 32px; }
+    .sign-cell { width: 50%; vertical-align: top; }
+    .small { font-size: 10pt; }
+  </style>
+</head>
+<body>
+
+  <table class="doc-header">
+    <tr>
+      <td class="bold">DOC REF #: <span style="display:inline-block; min-width:180px;">XXXXXX/EXPERIENCED/FFS/XXX</span></td>
+      <td class="right">Date: <span style="display:inline-block; min-width:140px;">[[Date]]</span></td>
+    </tr>
+  </table>
+
+  <table class="kv mb16">
+    <tr>
+      <td class="label">Employee Name</td>
+      <td>[[Employee Name]]</td>
+    </tr>
+    <tr>
+      <td class="label">Date of Resignation</td>
+      <td>[[Date of Resignation]]</td>
+    </tr>
+    <tr>
+      <td class="label">Last Working Day</td>
+      <td>[[Last Working Day]]</td>
+    </tr>
+  </table>
+
+  <div class="section-title">Full &amp; Final Statement</div>
+
+  <table class="two-col mb16">
+    <tr>
+      <td>
+        <table class="grid mb8">
+          <tr><th colspan="2">Under the head (Recoveries / Deductions)</th></tr>
+          <tr>
+            <td>Training Cost Deduction</td>
+            <td style="text-align:right;">50,000</td>
+          </tr>
+          <tr>
+            <td>Other Deductions</td>
+            <td style="text-align:right;">0</td>
+          </tr>
+          <tr>
+            <td class="bold">Net Recovery from Employee</td>
+            <td class="bold" style="text-align:right;">50,000</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table class="grid mb8">
+          <tr><th colspan="2">Under the head (Earnings / Payables)</th></tr>
+          <tr>
+            <td>Training Cost Refunded</td>
+            <td style="text-align:right;">50,000</td>
+          </tr>
+          <tr>
+            <td>Aug-2025</td>
+            <td style="text-align:right;">16,000</td>
+          </tr>
+          <tr>
+            <td>Other Payables</td>
+            <td style="text-align:right;">0</td>
+          </tr>
+          <tr>
+            <td class="bold">Gross Payable by Employer</td>
+            <td class="bold" style="text-align:right;">66,000</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table class="grid mb16">
+    <tr>
+      <th>Description</th>
+      <th style="width: 35%;">Amount</th>
+    </tr>
+    <tr>
+      <td>Net Payable by Employer</td>
+      <td style="text-align:right;">16,000</td>
+    </tr>
+    <tr>
+      <td>Amount Waived Off</td>
+      <td style="text-align:right;">0</td>
+    </tr>
+    <tr>
+      <td class="bold">Net Dues at both Sides</td>
+      <td class="bold" style="text-align:right;">0</td>
+    </tr>
+  </table>
+
+  <div class="section-title">Payment Details</div>
+  <table class="kv">
+    <tr>
+      <td class="label">Name of Account Holder</td>
+      <td>[[Employee Name]]</td>
+    </tr>
+    <tr>
+      <td class="label">Account #</td>
+      <td>[[Bank Account]]</td>
+    </tr>
+    <tr>
+      <td class="label">Bank, Branch</td>
+      <td>[[Bank, Branch]]</td>
+    </tr>
+    <tr>
+      <td class="label">IFSC</td>
+      <td>[[IFSC]]</td>
+    </tr>
+    <tr>
+      <td class="label">Transaction ID</td>
+      <td>[[Transaction ID]]</td>
+    </tr>
+    <tr>
+      <td class="label">Mode of Payment</td>
+      <td>[[Mode Of Payment]]</td>
+    </tr>
+    <tr>
+      <td class="label">Transfer Date</td>
+      <td>[[Transfer Date]]</td>
+    </tr>
+    <tr>
+      <td class="label">Amount</td>
+      <td>[[Amount]]</td>
+    </tr>
+    <tr>
+      <td class="label">Amount in words</td>
+      <td>[[Amount in words]]</td>
+    </tr>
+    <tr>
+      <td class="label">Receipt On</td>
+      <td>[[Receipt On]]</td>
+    </tr>
+  </table>
+
+  <table class="sign-row">
+    <tr>
+      <td class="sign-cell">
+        <div class="mb8 bold">Employee Acceptance &amp; Confirmation</div>
+        <div class="small">Name: [[Employee Name]]</div>
+        <div class="small">Signature: ____________________________</div>
+        <div class="small">Date: _________________________________</div>
+      </td>
+      <td class="sign-cell">
+        <div class="mb8 bold">Employer Seal / Authorized Signatory</div>
+        <div class="small">Name: _________________________________</div>
+        <div class="small">Signature: ____________________________</div>
+        <div class="small">Date: _________________________________</div>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>

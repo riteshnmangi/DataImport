@@ -1,0 +1,269 @@
+<style>
+  ol {
+    counter-reset: item !important;
+    list-style: none;
+    padding-left: 1.5em;
+  }
+
+  li {
+    counter-increment: item;
+    display: table;
+    margin: 1em 0;
+
+  }
+
+  li::before {
+    content: counters(item, ".") "";
+    display: table-cell;
+    padding-right: 0.8em;
+    min-width: 2em;
+    text-align: right;
+  }
+</style>
+
+<br />
+<br />
+<br />
+<br />
+<table style="border: none; width:100%">
+  <tr>
+    <td style="border: none; padding: 0;">
+      Doc Ref Number: [[FY]]/[[HRDOCTYPE]]/[[EMPTYPE]]/[[SR]]
+    </td>
+    <td style="text-align: right; border: none; padding: 0;">
+      Date: [[AppointmentDate]]
+    </td>
+  </tr>
+</table>
+<br />
+<br />
+
+<div>
+  To,<br />
+  [[Salutation]] [[FirstName]] [[MiddleName]] [[LastName]],<br />
+  [[AddressLine1]], [[AddressLine2]],<br />
+  [[AddressLine3]], [[CityName]],<br />
+  [[StateName]], [[CountryName]] - [[Zipcode]]<br />
+  Mobile: [[Mobile]]<br />
+  Identity Document: [[KYUName]]<br />
+  Identity Number: [[KYUNumber]]
+</div>
+<br />
+<div style="text-align: center; text-decoration: underline; font-weight: bold;">Subject: Appointment Letter</div>
+<br />
+
+<p>Dear <strong>[[Salutation]] [[FirstName]] [[MiddleName]] [[LastName]], </strong></p>
+
+<p>
+  On continuation to offer you accepted on the day [[OfferAcceptanceOn]], we are pleased to appoint you as
+  [[OfferedDesignation]] in our organization subject to you obey following terms and conditions.
+</p>
+
+<ol>
+  <li>
+    <strong> Effective Date:</strong> Your appointment will take effect from the date of your joining and you fulfill
+    all conditions at the time of offer. That is <strong>[[AppointmentDate]]</strong>.
+  </li>
+  <li>
+    <strong>Employee History & Document Verification:</strong> You are providing / going to provide from time to time
+    all documents which you were requested to given at the time of offer, clear background verification if applicable
+    and all information found true on your all identity proofs and documents you provided or going to provide.
+  </li>
+  <li>
+    <strong>Service Commitment:</strong> For all employees who joins by entering into Service commitment, by signing and
+    accepting this, you are agreed to sign & follow that as a contract. Separate document for service commitment with
+    non-judicial stamp might be shouted on case to case basis for legal process. And, employee needs to sign that within
+    7 working days of appointment or whenever it is asked by company that document is being prepared by internal /
+    external legal team otherwise this appointment will turn void without any compensation or payment of Full and Final
+    settlement. Your total service commitment tenure will be <strong>[[ServiceWorkingDays]]</strong> working days. This
+    has been set as per <strong>25 working days per month.</strong> It will increase for number of leave without pay
+    days, and if office can’t function due to any statutory reason, and situation out of control.
+  </li>
+  <li>
+    <strong>Re-numeration & CTC:</strong>Your total Cost to Company (CTC), as given on last page of this letter will be
+    with effective from date of your appointment. The detail of said CTC is attached on last page of appointment letter.
+    The aforesaid CTC components are subject to deduction taxes under Income Tax Act, 1961 and professional tax based on
+    whatever criteria decided by government and revised according guidelines by government. The salary may also attract
+    statutory deductions like ESI, PF etc as per guideline by government and as per company policy. Company observes,
+    last working day before or on 10th of every month as salary-day for previous month salary payroll.
+  </li>
+  <li>
+    <strong>Probation Period:</strong> You will be initially on probation for 3 months from date of your appointment. On
+    successful completion of the same you will be confirmed on payroll, in case if your performance is not found as per
+    expectation and satisfactory, this period can be extended or can result into termination of employment. A meeting
+    will be held for discussion of performance during probation and conclusion will be documented and given in writing
+    to employee whether the employee is confirmed, the probation period is extended or service is terminated in clear
+    manner.
+  </li>
+  <li>
+    <strong>Leave: </strong> You are not going to entitled any paid leave during you are on probation and/or you are on
+    notice period. Except that you will be given 1 paid leave every month on pro-rata basis. 1 Privileged leave every 75
+    completed working days. That allows maximum 16 paid leave during entire work-year after you will come on full
+    salary.
+  </li>
+  <li>
+    <strong>Annual Appraisal / Salary Revision: </strong> Based on discussion during interview process, your initial
+    salary will be <strong> [[Currency]]. [[OfferedSalary]] ([[OfferedSalaryInWords]]) </strong> per month. Annual
+    Appraisal / Salary revision should be not being considered as right of every employee or routine process that all
+    follows. It totally depends on Market Condition, Company's condition & last but not least your own performance,
+    focus, discipline and commitment towards and for work you are doing. Your next salary revision / appraisal will
+    happen in payroll of <strong>[[ApprailsalPayrollMonth]]</strong> subject to you complete <strong>
+      [[ServiceWorkingDays]] </strong> working days between beginnings of February-[[PayrollStartYear]] to end of
+    February-[[PayrollEndYear]].
+  </li>
+  <li>
+    <strong>Conflict of Interest:</strong> While in employment with it is expected that you give your full work
+    potential and 100% efforts towards the progress of your own, company, company's business & revenue and company's
+    client satisfaction through your productive work. Your appointment has been meant for full time and for your
+    fulltime capacity to work with company. And, you shall not undertake, carry on, participate in or associate yourself
+    with any other similar business, similar trade, profession or freelance activity on any online or offline platform,
+    in any capacity whatsoever or run any similar line of business, do similar part-time job directly or indirectly.
+  </li>
+  <li>
+    <strong>Non-Disclosure Agreement (NDA):</strong> During your employment tenure, and while working with company you
+    will come across some of the trade secrets, business model, code architecture, confidential data, confidential
+    information, Intellectual properties, Purchase Orders, dealing rates, billing rates and other similar information.
+    This can be of company and/or company's clients, business partners, associates. You are agreeing and obey the strict
+    non-disclosure-agreement / non-competence-agreement. And, you also agree that you will keep all that information
+    secret & undisclosed in all manners to all external parties. If you don't obey or breach this term and due to your
+    that act if company suffers losses or law suit, you are liable to compensate that and on failure of the same company
+    will raise strict legal action. This is applicable even after your employment that you won't share any confidential
+    information with any one in future as well. A separate detailed document for the same along with NDA & NCA combined
+    will be given you for signing purpose which will be detail apart from.
+  </li>
+  <li>
+    <strong> Non-Competence Agreement (NCA):</strong> While in appointment and after 3-years of your last working day /
+    retirement day, you must not engage yourself directly or indirectly in business with client / customer / agencies
+    where company works with or serves as service provider. Even in case if any of the above entity client/ customer /
+    agencies asks you to such favor you will straight away reject and bring into notice of management. <br> Not limited
+    to above, you shall not receive any gifts, presents, coupons, offers, commissions, advances, loans or any other type
+    of gratification or benefits in form cash / non-cash etc against their name or their immediate family member's name.
+    On failure of the same company will raise strict legal action. A separate detailed document for the same along with
+    NDA & NCA combined will be given you for signing purpose which will be detail apart from
+  </li>
+  <li>
+    <strong>Internal Properties & Rights (IPR):</strong> You are supposed to use internal / external email, voice mail,
+    computer systems/laptop and any other software / hardware and company's resources for work purpose only. You must
+    avoid personal usage of the same. These all are internal properties of company. Further you agree that company may
+    access / examine all those internal properties assigned to you, from time to time, pursuant to the Company's
+    business requirements and in order to check if you have observed the Company's regulations or if there have been any
+    illegal or improper use of the same. Strict disciplinary action will be taken if it misuses of the same is observed.
+  </li>
+  <li>
+    <strong>Intellectual Properties:</strong> All the work that you will be doing while in / out of employment related
+    to company, whether tangible or non-tangible whether materialized or non-materialized, whether profitable or
+    non-profitable, sample work or work in any other form or all the form, will be property of company and you are not
+    entitled to copy / claim the same as your proprietary or as your own asset in any manner as you are being
+    compensated for the same by the company. Those are company's asset and company's proprietary. So, Company may take
+    recurring income out of it being company’s product patent, trademark or any similar claim out of it, may repeatedly
+    sell and trade the same with infinite number of customer/clients. And you are agreeing to that part without any
+    question / queries / compensation / loyalty for the same.
+  </li>
+  <li>
+    <strong>Termination of Service:</strong> Though we may not wish to do so, but in certain circumstances, any
+    employee
+    who is appointed with company is subject to terminated in following scenarios
+    <ol>
+      <li>
+        <strong> During Probation:</strong> If performance is not found good during probation period, company may
+        terminate employee if company believe that extension of probation won't help either. In this case, company is
+        liable to give notice of 15 days only and after that company is not liable to pay anything except the Full &
+        Final settlement amount to employee. This is going to be treated as graceful resignation only and company won't
+        have any bias for employee in future for considering him/her for employment again.
+      </li>
+      <li>
+        <strong> Out of Probation:</strong>For confirmed employee also, it is applicable that they perform according to
+        their experience and in full capacity. If in case employee fails to do so, company reserves right to ask
+        employee to resign from service with notice of 1 working month. If company asks employee to leave immediately
+        then pay of 1 month will be given as compensation to employee and letter of termination will be issued.<br> In
+        case, if employee and company mutually decides to depart then employee will be relieved without any other
+        compensation and only complete full & final compensation till last working day will be given and letter of
+        relieving will be issued to gracefully relieving employee. This is going to be treated as graceful resignation
+        only and company won't have any bias for employee in future for considering him/her for employment again.
+      </li>
+      <li>
+        <strong> Disciplinary Action:</strong> In case of disciplinary action which are as, not following superior's
+        instructions to carry out the work, don't maintaining the organization decorum and policy, being in-disciplined,
+        financial-non or financial misconduct, bad mouthing company, company culture & company's customer in any manner,
+        sexual harassment of co-worker, breaching any condition of appointment / Non-disclosure agreement /
+        Non-competence agreement, conflict of interest, intellectual properties and other similar to In all those cases,
+        neither notice nor compensation pay will be given to employee if company terminates employee due to misconduct
+        or involving one-self to disciplinary disputes. This is <strong> "NOT"</strong> going to be treated as graceful
+        resignation and employee will be marked blacklisted in company's record.
+      </li>
+      <li>
+        <strong> Medical Reason:</strong> Company reserves right to terminate services or send on long leave without pay
+        any employee subject to employee is not mentally fit to carry out his / her duties or in case if employee has
+        such a disease which can impact and spread infection to other employees in company. The notice and compensation
+        will purely base on case-to-case basis. In case of long leave all monetary & non-monetary benefits will be
+        stopped immediately until employee resumes service again.
+      </li>
+    </ol>
+  </li>
+  <li>
+    <strong> Absconding:</strong> Any employee if remains absent on service for 3 consecutive working days without
+    notice in writing with appropriate and understandable reason on humanity & empathic ground, then that case will be
+    considered as Absconding. Company will send a notice to an employee within a week after this scenario has been
+    observed. Non-satisfactory answer or in case of no-answer within another 15 days, company will terminate employee
+    from payroll and Company may file law suit / may take appropriate legal action against such employee after
+    termination of employment at the discretion of company' management.
+  </li>
+  <li>
+    <strong> Resignation & Notice Period:</strong> We may not wish; you may wish to resign from their services. After
+    resigning, you require to serve the notice period of <strong> [[NoticePeriodDays]] </strong> working days (Excludes
+    holidays, weekends and leave that employee may take). If employee wishes for buy-out option, it is allowed up to
+    <strong> [[MaxAllowedNoticePeriodBuyoutDays]] working days</strong> subject to entire handover process has been done
+    acknowledge by person who has taken it in writing. However, company finds employee is not equipped with work then
+    company may relieve employee early without any compensation except Full & Final settlement. In the case of
+    resignation, one month or equivalent amount’s salary will be put on hold in payroll and same will be credited to
+    employee along with Full & Final settlement after settling all dues if any.
+  </li>
+  <li>
+    <strong> Retirement:</strong> As per governments norms you may retire by the age of <strong> [[RetirementAge]]
+    </strong> or whatsoever at the time of retirement.
+  </li>
+  <li>
+    <strong> Jurisdiction:</strong> Any disputes or legal litigation will be subject to Ahmedabad Jurisdiction and
+    company is not liable to pay or compensate for the same in case of any legal issues arises between you and company.
+  </li>
+  <li>
+    <strong> Full & Final settlement and Relieving Document:</strong> In case of graceful resignation and mutual
+    termination cases of employee departure from service, company will settle all your dues into next subsequent payroll
+    if any. Relieving cum Experience letter will be issued on settling of all dues if any from both sides. Generally,
+    that may take 1 working payroll if it is from company's side. If any dues are to be claimed by company from employee
+    (e.g. short notice period's buy out), company will ask employee to settle those dues through cheque / demand draft
+    only and realization of such instrument, the relieving documents will be issued to employee within 5 working days.
+    <br>
+    In case termination due to non-performance / disciplinary actions company is not liable to pay any compensation
+    except pay till last working day. Relieving documents will strictly be given after 45 days of mentioning the reason
+    of relieving in clear cut manner.
+    <br>
+    In case of absconding company will forfeit all the dues including salary/incentive and any other perks/components as
+    part of that. No relieving documents can be issued to such cases in any circumstances and company can claim all
+    losses occurred due to that act of an employee.
+  </li>
+  <li>
+    <strong> Welcome Onboard:</strong> We look forward to you to be fully participative in a valuable growth journey!!!
+  </li>
+
+  <li>
+    <strong> Acceptance of Appointment:</strong> Employee has read, understands & accepted all terms & condition
+    mentioned on all the pages of appointment letter issued to me and I agreeing to follow the same throughout the
+    tenure of my work and follow the NDA & Service agreement terms.
+  </li>
+</ol>
+<br />
+<br />
+<br />
+<table style="border: none; width:100%; font-weight: bold;">
+  <tr>
+    <td style="border: none; padding: 0;">
+      Signature:<br /><br />
+      Employee Full Name in Capital Letters (Starting from First Name)
+    </td>
+    <td style="text-align: right; border: none; padding: 0;">
+      <br /><br />
+      Employer Seal and Signature:
+    </td>
+  </tr>
+</table>
